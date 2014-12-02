@@ -1,0 +1,12 @@
+Source: ros-hydro-async-web-server-cpp
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libssl-dev, ros-hydro-catkin
+Homepage: http://ros.org/wiki/async_web_server_cpp
+Standards-Version: 3.9.2
+
+Package: ros-hydro-async-web-server-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libssl-dev
+Description: Asynchronous Web/WebSocket Server in C++
